@@ -41,10 +41,6 @@
 		<url>https://github.com/TOPdesk/open-source-parent/issues</url>
 	</issueManagement>
 
-	<prerequisites>
-		<maven>3.0.4</maven>
-	</prerequisites>
-
 	<properties>
 		<!-- These are the properties to be used by surefire for the additional 
 			(forked) JVM arguments. The additionalArgLine is empty here, so that it can 
@@ -223,6 +219,26 @@
 					<releaseProfiles>release</releaseProfiles>
 					<goals>deploy</goals>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M1</version>
+				<executions>
+					<execution>
+						<id>enforce-maven</id>
+						<goals>
+							<goal>enforce</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<requireMavenVersion>
+									<version>3.0.4</version>
+								</requireMavenVersion>
+							</rules>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
