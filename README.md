@@ -2,6 +2,10 @@
 The Open Source parent of all TOPdesk Open Source projects
 
 # Changelog
+**1.2.0**
+
+* Change default `java.version` from 1.8 to 8
+
 **1.1.0**
 
 * Updated plugins and dependencies
