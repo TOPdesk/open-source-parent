@@ -2,6 +2,15 @@
 The Open Source parent of all TOPdesk Open Source projects
 
 # Changelog
+**2.0.1**
+
+* Added the java.version as release in the compiler plugin
+
+**2.0.0**
+
+* Updated plugins
+* Change default `java.version` from 8 to 11
+
 **1.2.0**
 
 * Updated plugins
