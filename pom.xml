@@ -9,7 +9,7 @@
 	<url>https://github.com/TOPdesk</url>
 	<organization>
 		<name>TOPdesk</name>
-		<url>http://www.topdesk.com/</url>
+		<url>https://www.topdesk.com/</url>
 	</organization>
 
 	<licenses>
@@ -25,7 +25,7 @@
 			<name>Joep Weijers</name>
 			<email>j.weijers@topdesk.com</email>
 			<organization>TOPdesk</organization>
-			<organizationUrl>http://www.topdesk.com</organizationUrl>
+			<organizationUrl>https://www.topdesk.com</organizationUrl>
 		</developer>
 	</developers>
 
