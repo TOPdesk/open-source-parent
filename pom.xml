@@ -182,8 +182,6 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${surefire.version}</version>
 					<configuration>
-						<source>${java.version}</source>
-						<target>${java.version}</target>
 						<encoding>${project.build.sourceEncoding}</encoding>
 						<!-- Use System.out to print test failures instead of generating separate TXT files -->
 						<useFile>false</useFile>
