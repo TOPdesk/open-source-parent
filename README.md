@@ -2,6 +2,10 @@
 The Open Source parent of all TOPdesk Open Source projects
 
 # Changelog
+**3.0.0**
+
+* Updated plugins and dependencies
+
 **2.0.1**
 
 * Added the java.version as release in the compiler plugin
