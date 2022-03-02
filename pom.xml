@@ -53,7 +53,7 @@
 		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 		<surefire.version>2.22.2</surefire.version>
 		<failsafe.version>${surefire.version}</failsafe.version>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<build>
