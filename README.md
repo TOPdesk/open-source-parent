@@ -2,6 +2,11 @@
 The Open Source parent of all TOPdesk Open Source projects.
 
 # Changelog
+**4.0.0**
+
+* Change default `java.version` from 17 to 21
+* Updated plugins and dependencies
+
 **3.1.0**
 
 * Updated plugins and dependencies
