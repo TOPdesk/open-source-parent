@@ -38,3 +38,7 @@ The Open Source parent of all TOPdesk Open Source projects.
 **1.0.0**
 
 * Initial release
+
+# Releasing
+
+Execute: `mvn release:prepare release:perform -P sonatype-oss-release`
