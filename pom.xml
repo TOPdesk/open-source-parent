@@ -237,6 +237,14 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<!-- Snapshots go to the Central Portal snapshot repository (must be enabled for the namespace); releases are published by central-publishing-maven-plugin -->
+		<snapshotRepository>
+			<id>central</id>
+			<url>https://central.sonatype.com/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<reporting>
 		<plugins>
 			<!-- Lock Project Info plugin version -->
